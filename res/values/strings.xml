@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">DashClock MyUptime Extension</string>
+  <string name="extension_label">MyUptime</string>
+  <string name="extension_description">An extension for DashClock to display your devices uptime (time since last restart)</string>
+  <string name="extension_expanded_body_uptime_line" formatted="false">Uptime: %s</string>
+  <string name="extension_expanded_body_uptime_format" formatted="false">%dd %dh %dm</string>
+  <string name="extension_expanded_body_uptime_unavailable">n/a</string>
+  <string name="extension_status_uptime" formatted="false">Up: %s</string>
+  <string name="action_settings">Settings</string>
+</resources>
