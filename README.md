@@ -1,10 +1,13 @@
-## <img src="https://raw.githubusercontent.com/mouserd/dashclock-extension-myuptime/master/res/drawable-ldpi/ic_launcher.png"> DashClock MyUptime Extension
+## <img src="res/drawable-ldpi/ic_launcher.png"> DashClock MyUptime Extension
 
 [DashClock MyUptime Extension](https://play.google.com/store/apps/details?id=com.pixelus.dashclock.ext.myuptime) 
 is an extension for the 
 [DashClock Widget](https://play.google.com/store/apps/details?id=net.nurik.roman.dashclock) from Roman Nurik.
 
 This simple extension shows the time since your device was last restarted.
+
+<img src="playstore/screenshots/thumbs/s5-device-1.png" 
+  align="center">&nbsp;&nbsp;<img src="playstore/screenshots/thumbs/s5-device-2.png" align="center">
 
 ## Technical Details
 
