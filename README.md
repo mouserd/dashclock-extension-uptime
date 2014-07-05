@@ -29,7 +29,7 @@ mvn android:deploy
 ### Building a RELEASE apk:
 
 When building a release version of the application, the generated artifacts will be suitable for uploading directly into 
-the Google Playstore.  As such, the release build process will ensure that the code is minified, optimized and obfuscated
+the Google Playstore.  As such, the release build process will ensure that the code is shrunk, optimized and obfuscated
 (using proguard), signed (certificate not included with this repo), and zip-aligned.  The resulting 
 `target/myuptime-signed-aligned.apk` is then ready for upload into the playstore.  To initiate a new release, simply:
 
