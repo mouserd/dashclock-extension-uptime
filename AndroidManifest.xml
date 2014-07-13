@@ -27,6 +27,9 @@
       <!--android:value=".MyStorageExtensionActivity" />-->
     </service>
 
+    <meta-data android:name="com.crashlytics.ApiKey" android:value="e40d13de9e45727c7dc411977f11d4913a520bf1"/>
   </application>
+
+  <uses-permission android:name="android.permission.INTERNET"/>
 
 </manifest>

@@ -2,6 +2,7 @@ package com.pixelus.dashclock.ext.myuptime;
 
 import android.os.SystemClock;
 import android.util.Log;
+import com.crashlytics.android.Crashlytics;
 import com.google.android.apps.dashclock.api.DashClockExtension;
 import com.google.android.apps.dashclock.api.ExtensionData;
 
@@ -10,9 +11,15 @@ import static java.lang.String.format;
 public class MyUptimeExtension extends DashClockExtension {
 
   public static final String TAG = MyUptimeExtension.class.getName();
+  private boolean crashlyticsStarted = false;
 
   @Override
   protected void onUpdateData(int i) {
+
+    if (!crashlyticsStarted) {
+      Crashlytics.start(this);
+      crashlyticsStarted = true;
+    }
 
     String formattedUptime = getFormattedUptime();
 
