@@ -8,9 +8,9 @@ import com.google.android.apps.dashclock.api.ExtensionData;
 
 import static java.lang.String.format;
 
-public class MyUptimeExtension extends DashClockExtension {
+public class UptimeExtension extends DashClockExtension {
 
-  public static final String TAG = MyUptimeExtension.class.getName();
+  public static final String TAG = UptimeExtension.class.getName();
   private boolean crashlyticsStarted = false;
 
   @Override

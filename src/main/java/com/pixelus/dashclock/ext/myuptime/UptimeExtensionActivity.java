@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 
-public class MyUptimeExtensionActivity extends Activity {
+public class UptimeExtensionActivity extends Activity {
 
   /**
    * Called when the activity is first created.

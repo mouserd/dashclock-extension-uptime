@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">DashClock MyUptime Extension</string>
-  <string name="extension_label">MyUptime</string>
+  <string name="app_name">DashClock Uptime Extension</string>
+  <string name="extension_label">Uptime</string>
   <string name="extension_description">Display your devices uptime (time since last restart)</string>
   <string name="extension_expanded_body_uptime_line" formatted="false">Uptime: %s</string>
   <string name="extension_expanded_body_uptime_format" formatted="false">%dd %dh %dm</string>
